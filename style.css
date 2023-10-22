@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+}
+
+body{
+    background: url('img/wallpaper.jpg') center fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    gap:5px;
+}
