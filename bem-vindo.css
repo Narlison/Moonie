@@ -58,12 +58,15 @@ section{
   border-radius: 20px;
   color: #fff;
   font-size: 18px;
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
-  transition: 0.85ms
+  
+  
+  transition: 0.80s;
   
 }
 .button-enter:hover{
-  scale: 0.90;
+  transform: scale(0.90);
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  
   
   
 }

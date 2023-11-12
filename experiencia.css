@@ -1,0 +1,58 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background:url("img/wallpaper.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+nav{
+  padding:20px;
+}
+
+
+
+.title{
+  color:#fff;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  margin-top: 50px;
+  font-size: 33px;
+}
+
+
+.sub-title{
+  color:#fff;
+  font-size: 17px;
+  margin-top:15px;
+  
+}
+
+article{
+  padding:20px;
+  width: 100vw;
+  height:100vh;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.question-input-radio{
+  width: 100%;
+  border: solid 1px white;
+  display: flex;
+  flex-direction: row;
+  gap:6px;
+  height: 50px;
+  border-radius: 15px;
+  padding: 10px;
+  
+  align-items: center;
+  
+}

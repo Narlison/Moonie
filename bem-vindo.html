@@ -14,9 +14,16 @@
     <span><p class="question">Como podemos chamar você?</p></span>
     <input type="text" name="nome" id="nomeUser" placeholder="Sabrina">
      <section>
-        <button type="submit" class="button-enter">Continue</button>
+        <button type="submit" class="button-enter" onclick="proximaPage()">Continue</button>
   </section>
   </nav>
 </body>
+
+<!-Codigo JS para levar o usuário para a próxima pagina.->
+<script>
+  function proximaPage(){
+    location.replace("interesses.html")
+  }
+</script>
 
 </html>
